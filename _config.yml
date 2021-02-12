@@ -8,44 +8,35 @@ theme: jekyll-theme-chirpy
 baseurl: ''
 
 # the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
-lang: en-US
+lang: ch-ZH
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Chirpy                          # the main title
+title: 𝐖𝐞𝐧𝐤𝐚𝐢'𝐬                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 一个学生的胡思乱想   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
-
+浙江省龙泉市人，是一个喜爱折腾新事物的人。
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'imwky.github.io'
 
-author: your_full_name                  # change to your full name
+author: 余文凯               # change to your full name
 
 github:
-  username: github_username             # change to your github username
+  username: iaknew            # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: 我没有推特          # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: 余文凯                # it will shows as the copyright owner in Footer
+  email: mickey5618@outlook.com            # change to your email address
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
+     - https://github.com/iaknew
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
 
@@ -81,7 +72,7 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: https://s3.ax1x.com/2021/02/09/ydyGXq.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -107,7 +98,7 @@ kramdown:
 
 # DO NOT change this unless you're a Pro user on Jekyll and Web development,
 # Or you think you're smart enough to change other relevant URLs within this template.
-permalink: /posts/:title/
+permalink: /posts/:year:month:day-:title/
 
 collections:
   tabs:
